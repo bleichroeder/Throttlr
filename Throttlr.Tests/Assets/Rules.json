@@ -1,0 +1,11 @@
+[
+  {
+    "RuleConfiguration": {
+      "RuleName": "User_90babec3-e9aa-42bd-b85c-8df2225afc2b",
+      "ThrottlrName": "Test",
+      "WindowKeyRegexPattern": "UserOrder:90babec3-e9aa-42bd-b85c-8df2225afc2b",
+      "MaximumOverride": 1,
+      "TimeWindowOverride": "00:00:05"
+    }
+  }
+]

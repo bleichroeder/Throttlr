@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="ResponseContent\argus.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="ResponseContent\argus.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.2" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Throttlr.DependencyInjection\Throttlr.DependencyInjection.csproj" />
+    <ProjectReference Include="..\Throttlr.Filters.MinimalApi\Throttlr.Filters.MinimalApi.csproj" />
+    <ProjectReference Include="..\Throttlr.Filters.Mvc\Throttlr.Filters.Mvc.csproj" />
+    <ProjectReference Include="..\Throttlr.Filters\Throttlr.Filters.csproj" />
+    <ProjectReference Include="..\Throttlr\Throttlr.csproj" />
+  </ItemGroup>
+
+</Project>
