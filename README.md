@@ -8,6 +8,9 @@ Throttlr is a comprehensive, highly configurable C# library designed to empower 
 It offers an extensive suite of features, including rate limiting, bandwidth management, and support for multiple window types, catering to a wide array of throttling needs.
 At its core, Throttlr utilizes a multi-layer caching strategy, with Redis as the primary storage for tracking action counts and timings, ensuring high performance and scalability.
 
+## Installation
+https://www.nuget.org/packages/Throttlr.NET/
+
 #### Key Features:
 * Highly Configurable: Tailor Throttlr's behavior to fit your application's specific needs, with extensive customization options.
 * Generic Implementation: Easily integrate Throttlr with various types of actions, requests, or resources, thanks to its generic design.
