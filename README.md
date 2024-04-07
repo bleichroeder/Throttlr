@@ -9,11 +9,11 @@ It offers an extensive suite of features, including rate limiting, bandwidth man
 At its core, Throttlr utilizes a multi-layer caching strategy, with Redis as the primary storage for tracking request counts and timings, ensuring high performance and scalability.
 
 #### Key Features:
-##### Highly Configurable: Tailor Throttlr's behavior to fit your application's specific needs, with extensive customization options.
-##### Generic Implementation: Easily integrate Throttlr with various types of requests or resources, thanks to its generic design.
-##### Rate and Bandwidth Limiting: Not just limiting requests per second but also managing the data bandwidth, making it ideal for applications dealing with significant data transfer.
-##### Multiple Window Types: Choose the best throttling algorithm for your scenario, whether it's a fixed window, sliding window, or another, to balance accuracy and memory usage effectively.
-##### Resilient Caching Strategy: A primary Redis cache for optimal performance, with an in-memory fallback to ensure continuous operation, even during Redis outages.
+* Highly Configurable: Tailor Throttlr's behavior to fit your application's specific needs, with extensive customization options.
+* Generic Implementation: Easily integrate Throttlr with various types of requests or resources, thanks to its generic design.
+* Rate and Bandwidth Limiting: Not just limiting requests per second but also managing the data bandwidth, making it ideal for applications dealing with significant data transfer.
+* Multiple Window Types: Choose the best throttling algorithm for your scenario, whether it's a fixed window, sliding window, or another, to balance accuracy and memory usage effectively.
+* Resilient Caching Strategy: A primary Redis cache for optimal performance, with an in-memory fallback to ensure continuous operation, even during Redis outages.
 
 Throttlr is the go-to solution for .NET developers looking to maintain stability and performance in their applications under varying traffic loads.
 Its resilience, powered by a failover mechanism, guarantees consistent rate limiting, providing a seamless experience even in the face of unexpected infrastructure issues.
