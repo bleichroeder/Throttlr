@@ -2,15 +2,15 @@
   <img src="logo.png" width="350" title="hover text">
 </p>
 
-# Throttlr: Advanced Request Throttling for .NET Applications
+# Throttlr: Advanced Action Throttling for .NET Applications
 
-Throttlr is a comprehensive, highly configurable C# library designed to empower developers with robust request throttling capabilities.
+Throttlr is a comprehensive, highly configurable C# library designed to empower developers with robust action throttling capabilities.
 It offers an extensive suite of features, including rate limiting, bandwidth management, and support for multiple window types, catering to a wide array of throttling needs.
-At its core, Throttlr utilizes a multi-layer caching strategy, with Redis as the primary storage for tracking request counts and timings, ensuring high performance and scalability.
+At its core, Throttlr utilizes a multi-layer caching strategy, with Redis as the primary storage for tracking action counts and timings, ensuring high performance and scalability.
 
 #### Key Features:
 * Highly Configurable: Tailor Throttlr's behavior to fit your application's specific needs, with extensive customization options.
-* Generic Implementation: Easily integrate Throttlr with various types of requests or resources, thanks to its generic design.
+* Generic Implementation: Easily integrate Throttlr with various types of actions, requests, or resources, thanks to its generic design.
 * Rate and Bandwidth Limiting: Not just limiting requests per second but also managing the data bandwidth, making it ideal for applications dealing with significant data transfer.
 * Multiple Window Types: Choose the best throttling algorithm for your scenario, whether it's a fixed window, sliding window, or another, to balance accuracy and memory usage effectively.
 * Resilient Caching Strategy: A primary Redis cache for optimal performance, with an in-memory fallback to ensure continuous operation, even during Redis outages.
