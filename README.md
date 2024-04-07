@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="logo.png" width="350" title="hover text">
+  <img src="https://github.com/bleichroeder/Throttlr/blob/main/logo.png?raw=true" width="350" title="hover text">
 </p>
 
 # Throttlr: Advanced Action Throttling for .NET Applications
