@@ -9,8 +9,7 @@ It offers an extensive suite of features, including rate limiting, bandwidth man
 At its core, Throttlr utilizes a multi-layer caching strategy, with Redis as the primary storage for tracking request counts and timings, ensuring high performance and scalability.
 
 #### Key Features:
-##### Highly Configurable:
-Tailor Throttlr's behavior to fit your application's specific needs, with extensive customization options.
+##### Highly Configurable: Tailor Throttlr's behavior to fit your application's specific needs, with extensive customization options.
 ##### Generic Implementation: Easily integrate Throttlr with various types of requests or resources, thanks to its generic design.
 ##### Rate and Bandwidth Limiting: Not just limiting requests per second but also managing the data bandwidth, making it ideal for applications dealing with significant data transfer.
 ##### Multiple Window Types: Choose the best throttling algorithm for your scenario, whether it's a fixed window, sliding window, or another, to balance accuracy and memory usage effectively.
